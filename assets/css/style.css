@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%) ; 
+}
+
+/*div father*/
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin: 5% auto;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+}
+
+/*picture*/
+.container img{
+    width: 300px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-size: cover;
+}
+
+/*div son*/
+.content{
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+
+/*p de perfume*/
+#title{
+    letter-spacing: 5px;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    color: #B4B4B4;
+}
+
+.content h1{
+    font-family: 'Fraunces', serif;
+}
+
+/*p description of product*/
+#description{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #B4B4B4;
+}
+
+/*span price*/
+#price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #447D6A;
+}
+
+#discount{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #447D6A;
+    text-decoration:line-through;
+}
+
+/*buton*/
+.content button{
+    font-family: 'Montserrat';
+    padding: 15px;
+    background-color: #3D8168;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*medias for movil*/
+@media (max-width: 640px){
+    .container{
+        width: 320px;
+        height: 400px;
+        background-size: cover;
+        display: block;
+    }
+
+    .container img{
+       width: 320px;
+       height: 330px;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+       border-bottom-left-radius: 0;
+    }
+    
+    .attribution{
+        margin-top: 35em;
+    }
+}
