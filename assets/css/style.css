@@ -33,13 +33,15 @@ body{
     padding: 20px;
 }
 
-/*p de perfume*/
+/*h1 de perfume*/
 #title{
     letter-spacing: 5px;
     font-family: 'Montserrat', serif;
     font-weight: 700;
     color: #B4B4B4;
+    font-size: 1em;
 }
+
 
 .content h1{
     font-family: 'Fraunces', serif;
