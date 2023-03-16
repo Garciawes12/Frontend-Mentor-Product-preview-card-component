@@ -6,7 +6,7 @@ body{
 }
 
 /*div father*/
-.container{
+.grid_container{
     width: 600px;
     height: 500px;
     background-color: white;
@@ -17,7 +17,7 @@ body{
 }
 
 /*picture*/
-.container img{
+.grid_container img{
     width: 300px;
     height: 500px;
     border-top-left-radius: 20px;
@@ -82,16 +82,22 @@ body{
 }
 
 
+/*footer*/
+.attribution{
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%); 
+}
+
 /*medias for movil*/
 @media (max-width: 640px){
-    .container{
+    .grid_container{
         width: 320px;
         height: 400px;
         background-size: cover;
         display: block;
     }
 
-    .container img{
+    .grid_container img{
        width: 320px;
        height: 330px;
        border-top-right-radius: 10px;
